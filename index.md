@@ -66,7 +66,7 @@
 * 3rd Factor - on configuration parameters
 * Implement [OWASP](https://www.owasp.org/index.php/OWASP_Proactive_Controls) Proactive Controls (the list is ordered in importance)
 * Self-service security, and make it part of the build: [snyk](https://snyk.io/), [Brakeman](https://brakemanscanner.org/), [dependency checks](https://www.owasp.org/index.php/OWASP_Dependency_Check) 
-* [Security scan[(https://blog.docker.com/2016/05/docker-security-scanning/) your containers and do dependency checking
+* [Security scan[(https://blog.docker.com/2016/05/docker-security-scanning/) containers - from [Thoughtworks' Tech Radar](https://www.thoughtworks.com/radar/techniques/container-security-scanning)
 * Carry out targeted [DAST](https://www.owasp.org/index.php/Category:Vulnerability_Scanning_Tools) at Acceptance or UAT 
 * Automated functional and integration testing of security features 
 * Automated security attacks, using [Gauntlt](http://gauntlt.org/) or other tools
@@ -82,18 +82,16 @@
 ![Martin Fowler's Pyramid](https://martinfowler.com/bliki/images/testPyramid/test-pyramid.png)		
 * For automated tests
 	* [JavaScript](https://medium.com/powtoon-engineering/a-complete-guide-to-testing-javascript-in-2017-a217b4cd5a2a) - see below for list of frameworks
-	* “Record and playback testing” is unacceptable as these will create non-deterministic tests.
+	* “Record and playback testing” is **unacceptable** as these will create non-deterministic tests.
 	* Understand [Stubbing and Mocking](https://martinfowler.com/articles/mocksArentStubs.html) 
 	* [BDD](https://cucumber.io/blog/2016/07/20/where_should_you_use_bdd) should be used "in all the places where the business has reason to have opinions about the behaviour."
 * Understand what [Test Coverage](https://martinfowler.com/bliki/TestCoverage.html) is, and determine the right coverage as part of your static code analysis
 * Never have [non-deterministic](https://martinfowler.com/articles/nonDeterminism.html) test
 * Test based on Risk Assessment 
 * Do load and performance testing
-* Consider the future load requirements of the application
 * [Gatling](http://gatling.io/), JMeter, SoapUI
 * Do security and penetration tests
 * Automate. Automate. Automate
-* [TDD](https://martinfowler.com/bliki/TestDrivenDevelopment.html) - understood this now? If not - read about it again.
 
 ### Static code analysis
 * Use SonarQube or similar tools
