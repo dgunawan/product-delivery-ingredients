@@ -36,8 +36,7 @@
 * Think self-monitoring, self-regulating and self-healing mechanisms
 * Use the the [Technology Radar](https://www.thoughtworks.com/radar) from Thoughtworks to guide your team’s architecture decisions
 
-> Can’t do architecture without programming, and can’t do programming without architecture
-> **Martin Fowler**
+> "Can’t do architecture without programming, and can’t do programming without architecture" - Martin Fowler
 
 ### Development environment 
 * Choose a well-known (and free) IDE (unless it’s .Net or C# - use Visual Studio)
@@ -115,3 +114,51 @@
 * Alignment to architectural and technology governance
 
 >“[Keep the Codebase Healthy](https://www.thoughtworks.com/talks/agile-architecture-rethink-2014)” - Martin Fowler
+
+### Continuous Integration
+* Automated build and notifications
+* When a build should be activated, at every commit?
+* Build should stop at ANY test failure - no excuse
+* Build should stop at a predetermined decrease of code quality - use SonarQube or similar tool to check
+* Roll your own, Jenkins, Hudson, Octopus etc.
+* SaaS: Codeship, Travis CI, Bamboo, Hudson, GoCD 
+
+### Continuous Delivery/Deployment
+* [Infrastructure as Code](https://www.thoughtworks.com/insights/blog/infrastructure-code-reason-smile), include unit tests!
+* Automatically build the release package
+* Automatically deploy to intended environments
+* Release package will be promoted to the next stage only on successful build
+* Consistent server build and environment, no snowflake or pets server or environment
+* 10th Factor - all environments should be very similar, dev, test, UAT, QA, prod. 
+* Utilise containers i.e. Docker
+* Utilise an orchestration manager e.g. Kubernetes, Docker Swarm, Apache Mesos
+* Utilise a configuration manager, Infrastructure as Code, e.g. Ansible, Chef, Puppet, even on PaaS
+* Consider the right deployment technique:
+* A/B testing
+* Red/Blue deployment
+ * Canary
+ * Feature toggles
+ * Dark launches
+* [Decouple](https://www.thoughtworks.com/radar/techniques/decoupling-deployment-from-release) deployment from release
+
+### Data
+* Should have a strategy to optimise data usage and storage
+* Build in metrics to provide data to the business and for health monitoring
+* Consider support scenario
+* Use data to make your life easier
+* Use data to help your team to make decisions
+
+### Support - Monitoring
+* Consider the principle of Least Privilege for access control
+* Consider support requirements
+* Put monitoring everywhere, prioritise alerting on component’s importance, resiliency, set-up, backup etc.
+* New Relic, OMS, Splunk, ELK, Raygun
+* Build a dashboard which is useful at all levels, consider Splunk, Grafana
+
+### Support - Alerting
+* Consider the application’s SLA
+* Consider the support agreements
+* Consider Segregation of Duties
+* Determine the metrics that will trigger alerts
+* Alert types e.g. Info, Warning etc.
+* Select the appropriate tools to make your life easy: IM, SMS, email, flashing lights, sirens etc.
