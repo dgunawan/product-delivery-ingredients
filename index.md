@@ -28,8 +28,8 @@
 * [Ivory-tower](http://www.agilemodeling.com/essays/enterpriseModelingAntiPatterns.htm#IvoryTowerArchitecture) architecture **doesn’t work**
 * Do architecture often and in collaboration
 * Remove hard-coupling and dependencies 
-  * [OAS](https://swagger.io/) based APIs and microservices, consider using Swagger
-  * Contracts based development for both internal and external components - use mocks and stubs as part of unit testing
+	* [OAS](https://swagger.io/) based APIs and microservices, consider using Swagger
+	* Contracts based development for both internal and external components - use mocks and stubs as part of unit testing
 * [Microservice](https://martinfowler.com/articles/microservices.html) architecture is [not the silver bullet](https://martinfowler.com/articles/microservice-trade-offs.html)
 * Consider other options e.g. [serverless](https://martinfowler.com/articles/serverless.html), PaaS
 * [Design for failure](https://blog.risingstack.com/designing-microservices-architecture-for-failure/)
