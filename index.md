@@ -166,11 +166,11 @@
 
 ### Resources
 * [https://guide.freecodecamp.org/](https://guide.freecodecamp.org/)
-* [https://github.com/mr-mig/every-programmer-should-know](https://github.com/mr-mig/every-programmer-should-know
+* [https://github.com/mr-mig/every-programmer-should-know](https://github.com/mr-mig/every-programmer-should-know)
 * [https://stevewedig.com/2014/02/03/software-developers-reading-list/](https://stevewedig.com/2014/02/03/software-developers-reading-list/) 
 * [https://martinfowler.com](https://martinfowler.com)
-* [https://www.thoughtworks.com](https://www.thoughtworks.com
-* Beware of framework/language/technology’s Hype Cycle
+* [https://www.thoughtworks.com](https://www.thoughtworks.com)
+* Beware of framework/language/technology’s [Hype Cycle](http://www.gartner.com/technology/research/methodologies/hype-cycle.jsp)
 * [https://trello.com/b/lw96ei6d/books](https://trello.com/b/lw96ei6d/books)
 * [https://www.safaribooksonline.com/library/view/lean-ux-2nd/9781491953594/](https://www.safaribooksonline.com/library/view/lean-ux-2nd/9781491953594/)
 * [DevOpsSec](http://www.oreilly.com/webops-perf/free/files/devopssec.pdf)
