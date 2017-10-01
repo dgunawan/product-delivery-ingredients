@@ -79,7 +79,7 @@
 * Follow the principles of [Testing Pyramid](https://martinfowler.com/bliki/TestPyramid.html)
 * Beware of the [Testing Cupcake](https://www.thoughtworks.com/insights/blog/introducing-software-testing-cupcake-anti-pattern)
 * Determine the layers of the pyramid for your application - [start simple](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html) 
-![Pyramid](https://martinfowler.com/bliki/images/testPyramid/test-pyramid.png)		
+![Martin Fowler's Pyramid](https://martinfowler.com/bliki/images/testPyramid/test-pyramid.png)		
 * For automated tests
 	* [JavaScript](https://medium.com/powtoon-engineering/a-complete-guide-to-testing-javascript-in-2017-a217b4cd5a2a) - see below for list of frameworks
 	* “Record and playback testing” is unacceptable as these will create non-deterministic tests.
@@ -97,7 +97,7 @@
 
 ### Static code analysis
 * Use SonarQube or similar tools
-* Include code convention as part of the check
+* Include [code convention](#Coding convention) as part of the check
 * Agree on the metrics your team should start with
 * Monitored and adjusted as your team matures
 * Include it in the CI pipeline and fail the build when your quality metrics  drop
