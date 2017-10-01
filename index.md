@@ -3,7 +3,8 @@
 * Understand the [Lean Principles](https://www.lean.org/WhatsLean/Principles.cfm)
 * Understand what [DevOps](https://aws.amazon.com/devops/what-is-devops/) is, and its [principles and practices](https://dzone.com/articles/devops-devops-principles)
 * Understand what [MVP](http://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp) is
-* Understand what [Product Ownership](https://www.youtube.com/watch?v=502ILHjX9EE) is (**14:10** if your organisation doesn’t like truth and honesty, you won’t like Agile)
+* Understand what [Product Ownership](https://www.youtube.com/watch?v=502ILHjX9EE) is
+> **14:10** if your organisation doesn’t like truth and honesty, you won’t like Agile
 * Follow the [12-factor](https://12factor.net/) app techniques.
 * Understand the [Testing Pyramid](https://martinfowler.com/bliki/TestPyramid.html)
 * Bake-in quality and security into your product
