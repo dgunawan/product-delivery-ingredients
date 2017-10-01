@@ -165,25 +165,24 @@
 
 
 ### Resources
-* (https://guide.freecodecamp.org/)
-* https://github.com/mr-mig/every-programmer-should-know
-* https://stevewedig.com/2014/02/03/software-developers-reading-list/ 
-* https://martinfowler.com
-* https://www.thoughtworks.com
-* Technology radar - in conjunction with Gartner’s material
+* [https://guide.freecodecamp.org/](https://guide.freecodecamp.org/)
+* [https://github.com/mr-mig/every-programmer-should-know](https://github.com/mr-mig/every-programmer-should-know
+* [https://stevewedig.com/2014/02/03/software-developers-reading-list/](https://stevewedig.com/2014/02/03/software-developers-reading-list/) 
+* [https://martinfowler.com](https://martinfowler.com)
+* [https://www.thoughtworks.com](https://www.thoughtworks.com
 * Beware of framework/language/technology’s Hype Cycle
-* https://trello.com/b/lw96ei6d/books
-* https://www.safaribooksonline.com/library/view/lean-ux-2nd/9781491953594/
-* DevOpsSec - http://www.oreilly.com/webops-perf/free/files/devopssec.pdf
+* [https://trello.com/b/lw96ei6d/books](https://trello.com/b/lw96ei6d/books)
+* [https://www.safaribooksonline.com/library/view/lean-ux-2nd/9781491953594/](https://www.safaribooksonline.com/library/view/lean-ux-2nd/9781491953594/)
+* [DevOpsSec](http://www.oreilly.com/webops-perf/free/files/devopssec.pdf)
 * JavaScript Testing
-* Sinon - mocking and stubbing
-* Protactor - end to end tests (use with Selenium)
-* Jasmine framework 
-* Mocha framework
-* Chai - assertion library
-* Karma test runner - run tests in browsers - can run in BrowserStack or SauceLabs
-* Protractor for Angular (end-to-end test framework)
-* [Nightwatch](http://nightwatchjs.org/) end-to-end for automated browser based apps 
+	* Sinon - mocking and stubbing
+	* Protactor - end to end tests (use with Selenium)
+	* Jasmine framework 
+	* Mocha framework
+	* Chai - assertion library
+	* Karma test runner - run tests in browsers - can run in BrowserStack or SauceLabs
+	* Protractor for Angular (end-to-end test framework)
+	* [Nightwatch](http://nightwatchjs.org/) end-to-end for automated browser based apps 
 * AWS Device Farm alongside BrowserStack and SauceLabs
 * PaaS
 	* VSTS - Azure App Services
