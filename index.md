@@ -165,7 +165,7 @@
 
 
 ### Resources
-* https://guide.freecodecamp.org/
+* (https://guide.freecodecamp.org/)
 * https://github.com/mr-mig/every-programmer-should-know
 * https://stevewedig.com/2014/02/03/software-developers-reading-list/ 
 * https://martinfowler.com
