@@ -8,6 +8,8 @@
 * Follow the [12-factor](https://12factor.net/) app techniques.
 * Understand [Testing Pyramid](https://martinfowler.com/bliki/TestPyramid.html)
 
+> Build quality and security in
+
 > You build it, you run it; you break it, you fix it
 
 ### UX
