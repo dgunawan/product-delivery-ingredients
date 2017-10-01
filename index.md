@@ -37,7 +37,7 @@
 * Think self-monitoring, self-regulating and self-healing mechanisms
 * Use the the [Technology Radar](https://www.thoughtworks.com/radar) from Thoughtworks to guide your team’s architecture decisions
 
-> "Can’t do architecture without programming, and can’t do programming without architecture" - Martin Fowler
+> "Can’t do architecture without programming, and can’t do programming without architecture" Martin Fowler
 
 ### Development environment 
 * Choose a well-known (and free) IDE (unless it’s .Net or C# - use Visual Studio)
@@ -98,7 +98,7 @@
 
 ### Static code analysis
 * Use SonarQube or similar tools
-* Include [code convention](https://github.com/dgunawan/product-delivery-ingredients/blob/master/index.md#coding-convention) as part of the check
+* Include [code convention](#coding-convention) as part of the check
 * Agree on the metrics your team should start with
 * Monitored and adjusted as your team matures
 * Include it in the CI pipeline and fail the build when your quality metrics  drop
