@@ -8,7 +8,7 @@
 * Understand the [Testing Pyramid](https://martinfowler.com/bliki/TestPyramid.html)
 * Bake-in quality and security into your product
 
-> You build it, you run it; you break it, you fix it”
+> You build it, you run it; you break it, you fix it
 
 ### UX
 * Make sure the UX is an integral part of your team
@@ -37,6 +37,7 @@
 * Use the the [Technology Radar](https://www.thoughtworks.com/radar) from Thoughtworks to guide your team’s architecture decisions
 
 > Can’t do architecture without programming, and can’t do programming without architecture
+
 > *Martin Fowler*
 
 ### Development environment 
@@ -46,4 +47,31 @@
 * No special tweaks here or there ,use tools out-of-the-box and standardise
 * Use automated build tool e.g. Maven or Cake and Fake
 
+### Repositories
+* Git is preferred - github, gitlab or BitBucket
+* [Learn](https://try.github.io/levels/1/challenges/1) git, follow [best practices](https://sethrobertson.github.io/GitBestPractices/)
+* Understand how to use git, and understand how distributed repo works
+* Implement Versioning [policy](http://semver.org/)
+* Use Trunk Based Development and Short-Lived Branches [strategies](https://barro.github.io/2016/02/a-succesful-git-branching-model-considered-harmful/)
+
+### Coding convention 
+* Conventions for [different languages](https://en.wikipedia.org/wiki/Coding_conventions), Google’s [Java](https://google.github.io/styleguide/javaguide.html) style
+* Conventions should be standardised across the organisation
+* Follow the convention and include it in code quality check 
+* Consistency in the codebase is a must; code individualisation is *unacceptable*
+* Make sure everyone in the team understands and follows the agreed coding convention
+
+### Security - DevSecOps
+* Security engineer needs to be part of the team
+* Check for vulnerabilities on own code and all dependencies 
+* 2nd Factor - on dependencies
+* 3rd Factor - on configuration parameters
+* Implement [OWASP](https://www.owasp.org/index.php/OWASP_Proactive_Controls) Proactive Controls (the list is ordered in importance)
+* Self-service security, and make it part of the build: [snyk](https://snyk.io/), [Brakeman](https://brakemanscanner.org/), [dependency checks](https://www.owasp.org/index.php/OWASP_Dependency_Check) 
+* [Security scan[(https://blog.docker.com/2016/05/docker-security-scanning/) your containers and do dependency checking
+* Carry out targeted [DAST](https://www.owasp.org/index.php/Category:Vulnerability_Scanning_Tools) at Acceptance or UAT 
+* Automated functional and integration testing of security features 
+* Automated security attacks, using [Gauntlt](http://gauntlt.org/) or other tools
+* Automated infrastructure security testing e.g. [InSpec](https://www.inspec.io/)
+* Carry out targeted manual Penetration Testing
 
