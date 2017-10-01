@@ -8,6 +8,7 @@
 * Follow the [12-factor](https://12factor.net/) app techniques.
 * Understand [Testing Pyramid](https://martinfowler.com/bliki/TestPyramid.html)
 > Build quality and security in
+
 > You build it, you run it; you break it, you fix it
 
 ### UX
@@ -140,12 +141,14 @@
 	* Dark launches
 * [Decouple](https://www.thoughtworks.com/radar/techniques/decoupling-deployment-from-release) deployment from release
 
-### Data
+### Data(base)
 * Should have a strategy to optimise data usage and storage
+* [Evolutionary](https://martinfowler.com/articles/evodb.html) database design
+* Data obsfucation or masking **must** be part of the workflow to protect private and sensitive data
 * Build in metrics to provide data to the business and for health monitoring
 * Consider support scenario
+* Be Data Informed - Use data to help your team make decisions
 * Use data to make your life easier
-* Use data to help your team to make decisions
 
 ### Support - Monitoring
 * Consider the principle of Least Privilege for access control
