@@ -37,8 +37,7 @@
 * Use the the [Technology Radar](https://www.thoughtworks.com/radar) from Thoughtworks to guide your team’s architecture decisions
 
 > Can’t do architecture without programming, and can’t do programming without architecture
-
-> *Martin Fowler*
+> **Martin Fowler**
 
 ### Development environment 
 * Choose a well-known (and free) IDE (unless it’s .Net or C# - use Visual Studio)
@@ -75,3 +74,44 @@
 * Automated infrastructure security testing e.g. [InSpec](https://www.inspec.io/)
 * Carry out targeted manual Penetration Testing
 
+### Quality 
+* [TDD](https://martinfowler.com/bliki/TestDrivenDevelopment.html) - you need to understand this
+* Automate. Automate. Automate
+* Follow the principles of [Testing Pyramid](https://martinfowler.com/bliki/TestPyramid.html)
+* Beware of the [Testing Cupcake](https://www.thoughtworks.com/insights/blog/introducing-software-testing-cupcake-anti-pattern)
+* Determine the layers of the pyramid for your application - [start simple](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html) 
+(https://martinfowler.com/bliki/images/testPyramid/test-pyramid.png)		
+* For automated tests
+ * [JavaScript](https://medium.com/powtoon-engineering/a-complete-guide-to-testing-javascript-in-2017-a217b4cd5a2a) - see below for list of frameworks
+ * “Record and playback testing” is unacceptable as these will create non-deterministic tests.
+ * Understand [Stubbing and Mocking](https://martinfowler.com/articles/mocksArentStubs.html) 
+ * [BDD](https://cucumber.io/blog/2016/07/20/where_should_you_use_bdd) should be used "in all the places where the business has reason to have opinions about the behaviour."
+* Understand what [Test Coverage](https://martinfowler.com/bliki/TestCoverage.html) is, and determine the right coverage as part of your static code analysis
+* Never have [non-deterministic](https://martinfowler.com/articles/nonDeterminism.html) test
+* Test based on Risk Assessment 
+* Do load and performance testing
+* Consider the future load requirements of the application
+* [Gatling](http://gatling.io/), JMeter, SoapUI
+* Do security and penetration tests
+* Automate. Automate. Automate
+* [TDD](https://martinfowler.com/bliki/TestDrivenDevelopment.html) - understood this now? If not - read about it again.
+
+### Static code analysis
+* Use SonarQube or similar tools
+* Include code convention as part of the check
+* Agree on the metrics your team should start with
+* Monitored and adjusted as your team matures
+* Include it in the CI pipeline and fail the build when your quality metrics  drop
+
+### Development practices
+* Always do peer review through Pull Requests mechanism
+* Pair-programming could reduce the need for extensive peer-review
+* Do documentation in Readme file in the repo
+* [Self-documenting](https://www.martinfowler.com/bliki/CodeAsDocumentation.html) code is necessary
+* Follow the Boy Scout rules - Clean Code book p14
+* No Broken Windows - Clean Code book p8
+* Understand what [Refactoring](https://www.agilealliance.org/glossary/refactoring/#q=~(filters~(postType~(~'page~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'refactoring))~searchTerm~'~sort~false~sortDirection~'asc~page~1)) is and Just Do It
+* Understand what [Technical Debt](https://martinfowler.com/bliki/TechnicalDebt.html) is, and incur when appropriate
+* Alignment to architectural and technology governance
+
+>“[Keep the Codebase Healthy](https://www.thoughtworks.com/talks/agile-architecture-rethink-2014)” - Martin Fowler
