@@ -39,7 +39,7 @@
 > "Can’t do architecture without programming, and can’t do programming without architecture" Martin Fowler
 
 ### Development environment 
-* Choose a well-known (and free) IDE (unless it’s .Net or C# - use Visual Studio)
+* Choose a well-known (and free) IDE
 * Documented, easy and quick to set up
 * Repeatable, rebuildable everytime - no snowflake setup
 * No special tweaks here or there ,use tools out-of-the-box and standardise
@@ -151,7 +151,7 @@
 * Consider support requirements
 * Put monitoring everywhere, prioritise alerting on component’s importance, resiliency, set-up, backup etc.
 * New Relic, OMS, Splunk, ELK, Raygun
-* Build a dashboard which is useful at all levels, consider Splunk, Grafana
+* Build a dashboard which will be useful for all support levels, consider Splunk, Grafana
 
 ### Support - Alerting
 * Consider the application’s SLA
