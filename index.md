@@ -1,15 +1,13 @@
 ### Before Starting
+> Build quality and security in
 * Understand [Agile Principles](http://agilemanifesto.org/)
 * Understand [Lean Principles](https://www.lean.org/WhatsLean/Principles.cfm)
 * Understand [DevOps](https://aws.amazon.com/devops/what-is-devops/), and its [principles and practices](https://dzone.com/articles/devops-devops-principles)
 * Understand [MVP](http://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp)
 * Understand [Product Ownership](https://www.youtube.com/watch?v=502ILHjX9EE) 
-> if your organisation doesn’t like **truth and honesty**, you won’t like Agile
+> if your organisation doesn’t like **truth and honesty**, they won’t like Agile
 * Follow the [12-factor](https://12factor.net/) app techniques.
 * Understand [Testing Pyramid](https://martinfowler.com/bliki/TestPyramid.html)
-
-> Build quality and security in
-
 > You build it, you run it; you break it, you fix it
 
 ### UX
