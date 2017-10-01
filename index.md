@@ -14,6 +14,7 @@
 * Make sure the UX is an integral part of your team
 * Experiment. Experiment. Experiment
 * Prototype. Prototype. Prototype. 
+* Early customer feedback loops
 * Get involved in ideation, user surveys, research and design facilitation
 * Involve and experiment with real users
 * Your customers and users are also your stakeholders
@@ -36,13 +37,13 @@
 * Think self-monitoring, self-regulating and self-healing mechanisms
 * Use the the [Technology Radar](https://www.thoughtworks.com/radar) from Thoughtworks to guide your team’s architecture decisions
 
-> "Can’t do architecture without programming, and can’t do programming without architecture" Martin Fowler
+> "Can’t do architecture without programming, and can’t do programming without architecture" - Martin Fowler
 
 ### Development environment 
 * Choose a well-known (and free) IDE
 * Documented, easy and quick to set up
 * Repeatable, rebuildable everytime - no snowflake setup
-* No special tweaks here or there ,use tools out-of-the-box and standardise
+* No special tweaks if bit required,use tools out-of-the-box and standardise
 * Use automated build tool e.g. Maven or Cake and Fake
 
 ### Repositories
