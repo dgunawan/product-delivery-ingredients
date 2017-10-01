@@ -97,7 +97,7 @@
 
 ### Static code analysis
 * Use SonarQube or similar tools
-* Include [code convention](#Coding convention) as part of the check
+* Include [code convention](https://github.com/dgunawan/product-delivery-ingredients/blob/master/index.md#coding-convention) as part of the check
 * Agree on the metrics your team should start with
 * Monitored and adjusted as your team matures
 * Include it in the CI pipeline and fail the build when your quality metrics  drop
