@@ -1,13 +1,12 @@
 ### Before Starting
-* Understand the [Agile Principles](http://agilemanifesto.org/)
-* Understand the [Lean Principles](https://www.lean.org/WhatsLean/Principles.cfm)
-* Understand what [DevOps](https://aws.amazon.com/devops/what-is-devops/) is, and its [principles and practices](https://dzone.com/articles/devops-devops-principles)
-* Understand what [MVP](http://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp) is
-* Understand what [Product Ownership](https://www.youtube.com/watch?v=502ILHjX9EE) is
-> **14:10** if your organisation doesn’t like truth and honesty, you won’t like Agile
+* Understand [Agile Principles](http://agilemanifesto.org/)
+* Understand [Lean Principles](https://www.lean.org/WhatsLean/Principles.cfm)
+* Understand [DevOps](https://aws.amazon.com/devops/what-is-devops/), and its [principles and practices](https://dzone.com/articles/devops-devops-principles)
+* Understand [MVP](http://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp)
+* Understand [Product Ownership](https://www.youtube.com/watch?v=502ILHjX9EE) 
+> if your organisation doesn’t like **truth and honesty**, you won’t like Agile
 * Follow the [12-factor](https://12factor.net/) app techniques.
-* Understand the [Testing Pyramid](https://martinfowler.com/bliki/TestPyramid.html)
-* Bake-in quality and security into your product
+* Understand [Testing Pyramid](https://martinfowler.com/bliki/TestPyramid.html)
 
 > You build it, you run it; you break it, you fix it
 
@@ -56,7 +55,7 @@
 ### Coding convention 
 * Conventions for [different languages](https://en.wikipedia.org/wiki/Coding_conventions), Google’s [Java](https://google.github.io/styleguide/javaguide.html) style
 * Conventions should be standardised across the organisation
-* Follow the convention and include it in code quality check 
+* Follow the convention and include it in [code quality check](#static-code-analysis) 
 * Consistency in the codebase is a must; code individualisation is *unacceptable*
 * Make sure everyone in the team understands and follows the agreed coding convention
 
@@ -114,7 +113,7 @@
 * Understand what [Technical Debt](https://martinfowler.com/bliki/TechnicalDebt.html) is, and incur when appropriate
 * Alignment to architectural and technology governance
 
->“[Keep the Codebase Healthy](https://www.thoughtworks.com/talks/agile-architecture-rethink-2014)” - Martin Fowler
+> “[Keep the Codebase Healthy](https://www.thoughtworks.com/talks/agile-architecture-rethink-2014)” - Martin Fowler
 
 ### Continuous Integration
 * Automated build and notifications
