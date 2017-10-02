@@ -80,7 +80,7 @@
 * Follow the principles of [Testing Pyramid](https://martinfowler.com/bliki/TestPyramid.html)
 * Beware of the [Testing Cupcake](https://www.thoughtworks.com/insights/blog/introducing-software-testing-cupcake-anti-pattern)
 * Determine the layers of the pyramid for your application - [start simple](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html) 
-![Martin Fowler's Pyramid](https://dgunawan.github.io/images/test-pyramid.png)		
+![Martin Fowler's Pyramid]({{ site.url }}/images/test-pyramid.png)		
 * For automated tests
 	* [JavaScript](https://medium.com/powtoon-engineering/a-complete-guide-to-testing-javascript-in-2017-a217b4cd5a2a) - see below for list of frameworks
 	* “Record and playback testing” is **unacceptable** as these will create non-deterministic tests.
