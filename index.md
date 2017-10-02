@@ -67,7 +67,7 @@
 * 3rd Factor - on configuration parameters
 * Implement [OWASP](https://www.owasp.org/index.php/OWASP_Proactive_Controls) Proactive Controls (the list is ordered in importance)
 * Self-service security, and make it part of the build: [snyk](https://snyk.io/), [Brakeman](https://brakemanscanner.org/), [dependency checks](https://www.owasp.org/index.php/OWASP_Dependency_Check) 
-* [Security scan[(https://blog.docker.com/2016/05/docker-security-scanning/) containers - from [Thoughtworks' Tech Radar](https://www.thoughtworks.com/radar/techniques/container-security-scanning)
+* [Security scan](https://blog.docker.com/2016/05/docker-security-scanning/) containers - from [Thoughtworks' Tech Radar](https://www.thoughtworks.com/radar/techniques/container-security-scanning)
 * Carry out targeted [DAST](https://www.owasp.org/index.php/Category:Vulnerability_Scanning_Tools) at Acceptance or UAT 
 * Automated functional and integration testing of security features 
 * Automated security attacks, using [Gauntlt](http://gauntlt.org/) or other tools
@@ -80,7 +80,7 @@
 * Follow the principles of [Testing Pyramid](https://martinfowler.com/bliki/TestPyramid.html)
 * Beware of the [Testing Cupcake](https://www.thoughtworks.com/insights/blog/introducing-software-testing-cupcake-anti-pattern)
 * Determine the layers of the pyramid for your application - [start simple](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html) 
-![Martin Fowler's Pyramid](https://martinfowler.com/bliki/images/testPyramid/test-pyramid.png)		
+![Martin Fowler's Pyramid](https://dgunawan.github.io/images/test-pyramid.png)		
 * For automated tests
 	* [JavaScript](https://medium.com/powtoon-engineering/a-complete-guide-to-testing-javascript-in-2017-a217b4cd5a2a) - see below for list of frameworks
 	* “Record and playback testing” is **unacceptable** as these will create non-deterministic tests.
