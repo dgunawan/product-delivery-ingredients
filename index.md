@@ -26,7 +26,6 @@
 
 ### Architecture
 * Follow the [Evolutionary Architecture](https://www.thoughtworks.com/radar/techniques/evolutionary-architecture) concept
-* Follow the [Ten Commandments](https://centerbrook.com/blog/2010/03/the-ten-commandments-of-architecture/) of Architecture
 * [Ivory-tower](http://www.agilemodeling.com/essays/enterpriseModelingAntiPatterns.htm#IvoryTowerArchitecture) architecture **doesn’t work**
 * Do architecture often and in collaboration
 * Remove hard-coupling and dependencies 
