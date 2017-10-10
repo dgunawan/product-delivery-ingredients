@@ -1,3 +1,7 @@
+The motivation behind is to provide a very broad overview of what are usually present or feed into successful product delivery work.  
+
+The very basics of software development, object-oriented programming, design patterns or hygienne factors of a technical team or prodcut team are not covered, as the expectation is that the team are already aware of these and other standard industry practices.
+
 ### Before Starting
 * Understand [Agile Principles](http://agilemanifesto.org/)
 * Understand [Lean Principles](https://www.lean.org/WhatsLean/Principles.cfm)
@@ -126,6 +130,7 @@
 * [Infrastructure as Code](https://www.thoughtworks.com/insights/blog/infrastructure-code-reason-smile), include unit tests!
 * Automatically build the release package
 * Automatically deploy to intended environments
+* Treat servers as cattle, not pets
 * Release package will be promoted to the next stage only on successful build
 * Consistent server build and environment, no snowflake or pets server or environment
 * 10th Factor - all environments should be very similar, dev, test, UAT, QA, prod. 
