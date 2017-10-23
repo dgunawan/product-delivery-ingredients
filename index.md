@@ -67,8 +67,8 @@ The very basics of software development, object-oriented programming, design pat
 ### Security - DevSecOps
 * Security engineer needs to be part of the team
 * Check for vulnerabilities on own code and all dependencies 
-* 2nd Factor - on dependencies
-* 3rd Factor - on configuration parameters
+* From 12-Factor App, follow the 2nd Factor - dependencies
+				 3rd Factor - configuration parameters
 * Implement [OWASP](https://www.owasp.org/index.php/OWASP_Proactive_Controls) Proactive Controls (the list is ordered in importance)
 * Self-service security, and make it part of the build: [snyk](https://snyk.io/), [Brakeman](https://brakemanscanner.org/), [dependency checks](https://www.owasp.org/index.php/OWASP_Dependency_Check) - plugin for [SonarQube](https://github.com/stevespringett/dependency-check-sonar-plugin)
 * [Security scan](https://blog.docker.com/2016/05/docker-security-scanning/) containers - from [Thoughtworks' Tech Radar](https://www.thoughtworks.com/radar/techniques/container-security-scanning)
