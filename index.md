@@ -67,8 +67,9 @@ The very basics of software development, object-oriented programming, design pat
 ### Security - DevSecOps
 * Security engineer needs to be part of the team
 * Check for vulnerabilities on own code and all dependencies 
-* From 12-Factor App, follow the 2nd Factor - dependencies
-				 3rd Factor - configuration parameters
+* From 12-Factor App:
+	* follow the 2nd Factor - dependencies
+	* follow the 3rd Factor - configuration parameters
 * Implement [OWASP](https://www.owasp.org/index.php/OWASP_Proactive_Controls) Proactive Controls (the list is ordered in importance)
 * Self-service security, and make it part of the build: [snyk](https://snyk.io/), [Brakeman](https://brakemanscanner.org/), [dependency checks](https://www.owasp.org/index.php/OWASP_Dependency_Check) - plugin for [SonarQube](https://github.com/stevespringett/dependency-check-sonar-plugin)
 * [Security scan](https://blog.docker.com/2016/05/docker-security-scanning/) containers - from [Thoughtworks' Tech Radar](https://www.thoughtworks.com/radar/techniques/container-security-scanning)
@@ -84,7 +85,8 @@ The very basics of software development, object-oriented programming, design pat
 * Follow the principles of [Testing Pyramid](https://martinfowler.com/bliki/TestPyramid.html)
 * Beware of the [Testing Cupcake](https://www.thoughtworks.com/insights/blog/introducing-software-testing-cupcake-anti-pattern)
 * Determine the layers of the pyramid for your application - [start simple](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html) 
-![Martin Fowler's Pyramid](https://dgunawan.github.io/product-delivery-ingredients/images/test-pyramid.png)		
+* Manual/exploratory testing (the cloud on top of the pyramid) will need to be kept to the minimum, and as necessary.
+![Testing Pyramid](https://dgunawan.github.io/product-delivery-ingredients/images/Testing Pyramid.jpg)		
 * For automated tests
 	* [JavaScript](https://medium.com/powtoon-engineering/a-complete-guide-to-testing-javascript-in-2017-a217b4cd5a2a) - see below for list of frameworks
 	* “Record and playback testing” is **unacceptable** as these will create non-deterministic tests.
