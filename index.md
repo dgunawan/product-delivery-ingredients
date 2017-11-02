@@ -88,7 +88,7 @@ The very basics of software development, object-oriented programming, design pat
 * Manual/exploratory testing (the cloud on top of the pyramid) will need to be kept to the minimum, and as necessary.
 ![Testing Pyramid](https://dgunawan.github.io/product-delivery-ingredients/images/Testing Pyramid.jpg)		
 * For automated tests
-	* [JavaScript](https://medium.com/powtoon-engineering/a-complete-guide-to-testing-javascript-in-2017-a217b4cd5a2a) - see below for list of frameworks
+	*  Only do the [necessary validation](https://www.gocd.org/2017/10/10/architecting-continuous-delivery) with acceptance tests, everything else covered by unit tests and a smaller layer of integration tests.
 	* “Record and playback testing” is **unacceptable** as these will create non-deterministic tests.
 	* Understand [Stubbing and Mocking](https://martinfowler.com/articles/mocksArentStubs.html) 
 	* [BDD](https://cucumber.io/blog/2016/07/20/where_should_you_use_bdd) should be used "in all the places where the business has reason to have opinions about the behaviour."
@@ -129,6 +129,7 @@ The very basics of software development, object-oriented programming, design pat
 * SaaS: Codeship, Travis CI, Bamboo, Hudson, GoCD 
 
 ### Continuous Delivery/Deployment
+> A deployment pipeline is, in essence, an automated implementation of your application’s build, deploy, test, and release process. - [Continuous Delivery book](https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Signature/dp/0321601912)
 * [Infrastructure as Code](https://www.thoughtworks.com/insights/blog/infrastructure-code-reason-smile), include unit tests!
 * Automatically build the release package
 * Automatically deploy to intended environments
@@ -182,7 +183,7 @@ The very basics of software development, object-oriented programming, design pat
 * [https://trello.com/b/lw96ei6d/books](https://trello.com/b/lw96ei6d/books)
 * [https://www.safaribooksonline.com/library/view/lean-ux-2nd/9781491953594/](https://www.safaribooksonline.com/library/view/lean-ux-2nd/9781491953594/)
 * [DevOpsSec](http://www.oreilly.com/webops-perf/free/files/devopssec.pdf)
-* JavaScript Testing
+* [JavaScript Testing](https://medium.com/powtoon-engineering/a-complete-guide-to-testing-javascript-in-2017-a217b4cd5a2a) 
 	* Sinon - mocking and stubbing
 	* Protactor - end to end tests (use with Selenium)
 	* Jasmine framework 
