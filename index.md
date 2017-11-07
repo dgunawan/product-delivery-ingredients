@@ -129,7 +129,6 @@ The very basics of software development, object-oriented programming, design pat
 * SaaS: Codeship, Travis CI, Bamboo, Hudson, GoCD 
 
 ### Continuous Delivery/Deployment
-> A deployment pipeline is, in essence, an automated implementation of your application’s build, deploy, test, and release process. - [Continuous Delivery book](https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Signature/dp/0321601912)
 * [Infrastructure as Code](https://www.thoughtworks.com/insights/blog/infrastructure-code-reason-smile), include unit tests!
 * Automatically build the release package
 * Automatically deploy to intended environments
@@ -147,6 +146,8 @@ The very basics of software development, object-oriented programming, design pat
 	* Feature toggles
 	* Dark launches
 * [Decouple](https://www.thoughtworks.com/radar/techniques/decoupling-deployment-from-release) deployment from release
+
+> A deployment pipeline is, in essence, an automated implementation of your application’s build, deploy, test, and release process. - [Continuous Delivery book](https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Signature/dp/0321601912)
 
 ### Data(base)
 * Should have a strategy to optimise data usage and storage
