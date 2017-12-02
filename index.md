@@ -34,6 +34,7 @@ The very basics of software development, object-oriented programming, design pat
 * Do architecture often and in collaboration
 * Remove hard-coupling and dependencies 
 	* [OAS](https://swagger.io/) based APIs and microservices, consider using Swagger
+		* Use [assertj-swagger](https://github.com/RobWin/assertj-swagger) to check API's compliance to its contract
 	* Contracts based development for both internal and external components - use mocks and stubs as part of unit testing
 * [Microservice](https://martinfowler.com/articles/microservices.html) architecture is [not the silver bullet](https://martinfowler.com/articles/microservice-trade-offs.html)
 * Consider other options e.g. [serverless](https://martinfowler.com/articles/serverless.html), PaaS
@@ -88,7 +89,8 @@ The very basics of software development, object-oriented programming, design pat
 * Manual/exploratory testing (the cloud on top of the pyramid) will need to be kept to the minimum, and as necessary.
 ![Testing Pyramid](https://dgunawan.github.io/product-delivery-ingredients/images/Testing Pyramid.jpg)		
 * For automated tests
-	*  Only do the [necessary validation](https://www.gocd.org/2017/10/10/architecting-continuous-delivery) with acceptance tests, everything else covered by unit tests and a smaller layer of integration tests.
+	* Run UI tests using Chrome's headless mode 
+	* Only do the [necessary validation](https://www.gocd.org/2017/10/10/architecting-continuous-delivery) with acceptance tests, everything else covered by unit tests and a smaller layer of integration tests.
 	* “Record and playback testing” is **unacceptable** as these will create non-deterministic tests.
 	* Understand [Stubbing and Mocking](https://martinfowler.com/articles/mocksArentStubs.html) 
 	* [BDD](https://cucumber.io/blog/2016/07/20/where_should_you_use_bdd) should be used "in all the places where the business has reason to have opinions about the behaviour."
@@ -96,7 +98,7 @@ The very basics of software development, object-oriented programming, design pat
 * Never have [non-deterministic](https://martinfowler.com/articles/nonDeterminism.html) test
 * Test based on Risk Assessment 
 * Do load and performance testing
-* [Gatling](http://gatling.io/), JMeter, SoapUI
+	* [Gatling](http://gatling.io/), JMeter, SoapUI
 * Do security and penetration tests
 * Automate. Automate. Automate
 
