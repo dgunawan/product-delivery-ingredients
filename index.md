@@ -11,9 +11,8 @@ The very basics of software development, object-oriented programming, design pat
 > if your organisation doesn’t like **truth and honesty**, they won’t like Agile
 * Follow the [12-factor](https://12factor.net/) app techniques.
 * Understand [Testing Pyramid](https://martinfowler.com/bliki/TestPyramid.html)
-> Build quality and security in
-
-> You build it, you run it; you break it, you fix it
+> Bake-in quality and security into your products
+> You build it, you run it; You break it, you fix it
 
 ### UX
 * Make sure the UX is an integral part of your team
@@ -91,7 +90,7 @@ The very basics of software development, object-oriented programming, design pat
 * For automated tests
 	* Run UI tests using Chrome's headless mode 
 	* Only do the [necessary validation](https://www.gocd.org/2017/10/10/architecting-continuous-delivery) with acceptance tests, everything else covered by unit tests and a smaller layer of integration tests.
-	* “Record and playback testing” is **unacceptable** as these will create non-deterministic tests.
+	* “Record and playback testing” is **not**-testing as these will create non-deterministic tests.
 	* Understand [Stubbing and Mocking](https://martinfowler.com/articles/mocksArentStubs.html) 
 	* [BDD](https://cucumber.io/blog/2016/07/20/where_should_you_use_bdd) should be used "in all the places where the business has reason to have opinions about the behaviour."
 * Understand what [Test Coverage](https://martinfowler.com/bliki/TestCoverage.html) is, and determine the right coverage as part of your static code analysis
@@ -107,7 +106,7 @@ The very basics of software development, object-oriented programming, design pat
 * Include [code convention](#coding-convention) as part of the check
 * Agree on the metrics your team should start with
 * Monitored and adjusted as your team matures
-* Include it in the CI pipeline and fail the build when your quality metrics  drop
+* Include this in the CI pipeline, and fail the build when your quality drops
 
 ### Development practices
 * Always do peer review through Pull Requests mechanism
