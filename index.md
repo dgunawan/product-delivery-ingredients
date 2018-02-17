@@ -5,7 +5,8 @@ The very basics of software development, object-oriented programming, design pat
 ### Before Starting
 * Understand [Agile Principles](http://agilemanifesto.org/)
 * Understand [Lean Principles](https://www.lean.org/WhatsLean/Principles.cfm)
-* Understand [DevOps](https://aws.amazon.com/devops/what-is-devops/), and its [principles and practices](https://dzone.com/articles/devops-devops-principles)
+* Understand [DevOps](https://aws.amazon.com/devops/what-is-devops/), and its [principles and practices](https://dzone.com/articles/devops-devops-principles). Common DevOps teams model
+![DevOps teams](https://dgunawan.github.io/product-delivery-ingredients/images/Generic DevOps and Support Model.jpg)	
 * Understand [MVP](http://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp)
 * Understand [Product Ownership](https://www.youtube.com/watch?v=502ILHjX9EE) 
 > if your organisation doesn’t like **truth and honesty**, they won’t like Agile
