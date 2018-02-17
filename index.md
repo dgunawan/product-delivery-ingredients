@@ -12,6 +12,7 @@ The very basics of software development, object-oriented programming, design pat
 * Follow the [12-factor](https://12factor.net/) app techniques.
 * Understand [Testing Pyramid](https://martinfowler.com/bliki/TestPyramid.html)
 > Bake-in quality and security into your products
+
 > You build it, you run it; You break it, you fix it
 
 ### UX
@@ -23,7 +24,7 @@ The very basics of software development, object-oriented programming, design pat
 * Involve and experiment with real users
 * Your customers and users are also your stakeholders
 * Improve and grow your [Design Literacy](https://blogs.adobe.com/creativecloud/3-keys-to-improving-design-literacy-for-non-designers/)
-* Collect data for insight on how successful the product actually is
+* Collect and use data to gauge whether you've hit the mark
 
 > Usability makes or breaks your product
 
