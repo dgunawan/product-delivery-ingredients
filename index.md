@@ -11,6 +11,7 @@ The very basics of software development, object-oriented programming, design pat
 > if your organisation doesn’t like **truth and honesty**, they won’t like Agile
 * Follow the [12-factor](https://12factor.net/) app techniques.
 * Understand [Testing Pyramid](https://martinfowler.com/bliki/TestPyramid.html)
+
 > Bake-in quality and security into your products
 
 > You build it, you run it; You break it, you fix it
