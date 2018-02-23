@@ -74,8 +74,10 @@ The very basics of software development, object-oriented programming, design pat
 	* follow the 2nd Factor - dependencies
 	* follow the 3rd Factor - configuration parameters
 * Implement [OWASP](https://www.owasp.org/index.php/OWASP_Proactive_Controls) Proactive Controls (the list is ordered in importance)
+** Run [OWASP ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project) to check your application's security measures
 * Self-service security, and make it part of the build: [snyk](https://snyk.io/), [Brakeman](https://brakemanscanner.org/), [dependency checks](https://www.owasp.org/index.php/OWASP_Dependency_Check) - plugin for [SonarQube](https://github.com/stevespringett/dependency-check-sonar-plugin)
 * [Security scan](https://blog.docker.com/2016/05/docker-security-scanning/) containers - from [Thoughtworks' Tech Radar](https://www.thoughtworks.com/radar/techniques/container-security-scanning)
+** [Black Duck](https://www.blackducksoftware.com/) provides a paid-for capabilities to check your Docker containers
 * Carry out targeted [DAST](https://www.owasp.org/index.php/Category:Vulnerability_Scanning_Tools) at Acceptance or UAT 
 * Automated functional and integration testing of security features 
 * Automated security attacks, using [Gauntlt](http://gauntlt.org/) or other tools
