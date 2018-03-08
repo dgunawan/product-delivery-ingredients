@@ -18,7 +18,7 @@ The very basics of software development, object-oriented programming, design pat
 > You build it, you run it; You break it, you fix it
 
 ### UX
-* Make sure the UX is an integral part of your team
+* Make sure UX is an integral part of your delivery team
 * Experiment. Experiment. Experiment
 * Prototype. Prototype. Prototype. 
 * Early customer feedback loops
