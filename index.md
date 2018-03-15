@@ -2,6 +2,8 @@ The motivation behind is to provide a very broad overview of what are usually pr
 
 The very basics of software development, object-oriented programming, design patterns or hygienne factors of a technical team or prodcut team are not covered, as the expectation is that the team are already aware of these and other standard industry practices.
 
+This list of ingredients is definitely not prescriptive, things can and should be added or removed to fit one's environment and circumstamces.
+
 ### Before Starting
 * Understand [Agile Principles](http://agilemanifesto.org/)
 * Understand [Lean Principles](https://www.lean.org/WhatsLean/Principles.cfm)
