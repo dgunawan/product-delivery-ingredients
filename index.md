@@ -1,8 +1,8 @@
-The motivation behind is to provide a very broad overview of what are usually present or feed into successful product delivery work.  
+The motivation behind this page is to provide a very broad overview of what are usually present or feed into successful product delivery work. 
+
+This list is definitely not prescriptive, things can and should be added or removed to fit one's environment and circumstances.
 
 The very basics of software development, object-oriented programming, design patterns or hygienne factors of a technical team or prodcut team are not covered, as the expectation is that the team are already aware of these and other standard industry practices.
-
-This list of ingredients is definitely not prescriptive, things can and should be added or removed to fit one's environment and circumstances.
 
 ### Before Starting
 * Understand [Agile Principles](http://agilemanifesto.org/)
@@ -52,7 +52,8 @@ This list of ingredients is definitely not prescriptive, things can and should b
 * Choose a well-known (and free) IDE
 * Documented, easy and quick to set up
 * Repeatable, rebuildable everytime - no snowflake setup
-* No special tweaks if bit required,use tools out-of-the-box and standardise
+* No special tweaks if bit required,use tools out-of-the-box and standardised
+* Use automated code checker/linter e.g. SonarLint in Eclipse
 * Use automated build tool e.g. Maven or Cake and Fake
 
 ### Repositories
