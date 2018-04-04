@@ -1,8 +1,10 @@
 The motivation behind this page is to provide a very broad overview of what are usually present or feed into successful product delivery work. 
 
-This list is definitely not prescriptive, things can and should be added or removed to fit one's environment and circumstances.
+This list is definitely **not** prescriptive, other things can and should be added or removed to fit one's environment and circumstances.
 
 The very basics of software development, object-oriented programming, design patterns or hygienne factors of a technical team or prodcut team are not covered, as the expectation is that the team are already aware of these and other standard industry practices.
+
+PS: this list is **not** the silver bullet!
 
 ### Before Starting
 * Understand [Agile Principles](http://agilemanifesto.org/)
