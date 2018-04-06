@@ -72,6 +72,19 @@ PS: this list is **not** the silver bullet!
 * Consistency in the codebase is a must; code individualisation is *unacceptable*
 * Make sure everyone in the team understands and follows the agreed coding convention
 
+### Development practices
+* Always do peer review through Pull Requests mechanism
+* Pair-programming could reduce the need for extensive peer-review
+* Do documentation in Readme file in the repo
+* [Self-documenting](https://www.martinfowler.com/bliki/CodeAsDocumentation.html) code is necessary
+* Follow the Boy Scout rules - Clean Code book p14
+* No Broken Windows - Clean Code book p8
+* Understand what [Refactoring](https://www.agilealliance.org/glossary/refactoring/#q=~(filters~(postType~(~'page~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'refactoring))~searchTerm~'~sort~false~sortDirection~'asc~page~1)) is and Just Do It
+* Understand what [Technical Debt](https://martinfowler.com/bliki/TechnicalDebt.html) is, and incur when appropriate
+* Alignment to architectural and technology governance
+
+> “[Keep the Codebase Healthy](https://www.thoughtworks.com/talks/agile-architecture-rethink-2014)” - Martin Fowler
+
 ### Security - DevSecOps
 * Security engineer needs to be part of the team
 * Check for vulnerabilities on own code and all dependencies 
@@ -82,9 +95,9 @@ PS: this list is **not** the silver bullet!
 ** Run [OWASP ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project) to check your application's security measures
 * Self-service security, and make it part of the build: [snyk](https://snyk.io/), [Brakeman](https://brakemanscanner.org/), [dependency checks](https://www.owasp.org/index.php/OWASP_Dependency_Check) - plugin for [SonarQube](https://github.com/stevespringett/dependency-check-sonar-plugin)
 * Docker containers
-** [Seurity best practices](https://success.docker.com/article/security-best-practices)
-** [Security scan](https://blog.docker.com/2016/05/docker-security-scanning/) containers - from [Thoughtworks' Tech Radar](https://www.thoughtworks.com/radar/techniques/container-security-scanning)
-** [Black Duck](https://www.blackducksoftware.com/) provides a paid-for capabilities to check your Docker containers
+	* [Seurity best practices](https://success.docker.com/article/security-best-practices)
+	* [Security scan](https://blog.docker.com/2016/05/docker-security-scanning/) containers - from [Thoughtworks' Tech Radar](https://www.thoughtworks.com/radar/techniques/container-security-scanning)
+	* [Black Duck](https://www.blackducksoftware.com/) provides a paid-for capabilities to check your Docker containers
 * Carry out targeted [DAST](https://www.owasp.org/index.php/Category:Vulnerability_Scanning_Tools) at Acceptance or UAT 
 * Automated functional and integration testing of security features 
 * Automated security attacks, using [Gauntlt](http://gauntlt.org/) or other tools
@@ -119,19 +132,6 @@ PS: this list is **not** the silver bullet!
 * Agree on the metrics your team should start with
 * Monitored and adjusted as your team matures
 * Include this in the CI pipeline, and fail the build when your quality drops
-
-### Development practices
-* Always do peer review through Pull Requests mechanism
-* Pair-programming could reduce the need for extensive peer-review
-* Do documentation in Readme file in the repo
-* [Self-documenting](https://www.martinfowler.com/bliki/CodeAsDocumentation.html) code is necessary
-* Follow the Boy Scout rules - Clean Code book p14
-* No Broken Windows - Clean Code book p8
-* Understand what [Refactoring](https://www.agilealliance.org/glossary/refactoring/#q=~(filters~(postType~(~'page~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'refactoring))~searchTerm~'~sort~false~sortDirection~'asc~page~1)) is and Just Do It
-* Understand what [Technical Debt](https://martinfowler.com/bliki/TechnicalDebt.html) is, and incur when appropriate
-* Alignment to architectural and technology governance
-
-> “[Keep the Codebase Healthy](https://www.thoughtworks.com/talks/agile-architecture-rethink-2014)” - Martin Fowler
 
 ### Continuous Integration
 * Automated build and notifications
