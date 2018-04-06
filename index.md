@@ -133,6 +133,8 @@ PS: this list is **not** the silver bullet!
 * Monitored and adjusted as your team matures
 * Include this in the CI pipeline, and fail the build when your quality drops
 
+> [Principles of CI/CD](https://dgunawan.github.io/product-delivery-ingredients/pdfs/CI%20CD%20Pipeline%20-%20Generic.pdf)
+
 ### Continuous Integration
 * Automated build and notifications
 * When a build should be activated, at every commit?
