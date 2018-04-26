@@ -128,6 +128,7 @@ PS: this list is **not** the silver bullet!
 
 ### Static code analysis
 * Use SonarQube or similar tools
+** SonarQube's [plug-in]([https://github.com/porscheinformatik/sonarqube-licensecheck]) for checking on software licenses
 * Include [code convention](#coding-convention) as part of the check
 * Agree on the metrics your team should start with
 * Monitored and adjusted as your team matures
