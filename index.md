@@ -115,7 +115,7 @@ PS: this list is **not** the silver bullet!
 * For automated tests
 	* Run UI tests using Chrome's headless mode 
 	* Only do the [necessary validation](https://www.gocd.org/2017/10/10/architecting-continuous-delivery) with acceptance tests, everything else covered by unit tests and a smaller layer of integration tests.
-	* “Record and playback testing” is **not**-testing as these will create non-deterministic tests.
+	* “Record and playback testing” is not automated testing will create non-deterministic tests.
 	* Understand [Stubbing and Mocking](https://martinfowler.com/articles/mocksArentStubs.html) 
 	* [BDD](https://cucumber.io/blog/2016/07/20/where_should_you_use_bdd) should be used "in all the places where the business has reason to have opinions about the behaviour."
 * Understand what [Test Coverage](https://martinfowler.com/bliki/TestCoverage.html) is, and determine the right coverage as part of your static code analysis
