@@ -118,6 +118,7 @@ PS: this list is **not** the silver bullet!
 	* “Record and playback testing” is not automated testing will create non-deterministic tests.
 	* Understand [Stubbing and Mocking](https://martinfowler.com/articles/mocksArentStubs.html) 
 	* [BDD](https://cucumber.io/blog/2016/07/20/where_should_you_use_bdd) should be used "in all the places where the business has reason to have opinions about the behaviour."
+	* For API testing consider using automated contract testing tool such as [Pact](https://docs.pact.io/)
 * Understand what [Test Coverage](https://martinfowler.com/bliki/TestCoverage.html) is, and determine the right coverage as part of your static code analysis
 * Never have [non-deterministic](https://martinfowler.com/articles/nonDeterminism.html) test
 * Test based on Risk Assessment 
