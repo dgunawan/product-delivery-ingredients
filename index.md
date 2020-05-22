@@ -93,7 +93,7 @@ PS: this list is **not** the silver bullet!
 	* follow the 3rd Factor - configuration parameters
 * Implement [OWASP](https://www.owasp.org/index.php/OWASP_Proactive_Controls) Proactive Controls (the list is ordered in importance)
 ** Run [OWASP ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project) to check your application's security measures
-* Self-service security, and make it part of the build: [snyk](https://snyk.io/), [Brakeman](https://brakemanscanner.org/), [dependency checks](https://www.owasp.org/index.php/OWASP_Dependency_Check) - plugin for [SonarQube](https://github.com/stevespringett/dependency-check-sonar-plugin)
+* Self-service security, and make it part of the build: [snyk](https://snyk.io/), [Brakeman](https://brakemanscanner.org/), [dependency checks](https://owasp.org/www-community/Free_for_Open_Source_Application_Security_Tools), plugin for [SonarQube](https://github.com/stevespringett/dependency-check-sonar-plugin)
 * Docker containers
 	* [Security best practices](https://success.docker.com/article/security-best-practices)
 	* [Security scan](https://blog.docker.com/2016/05/docker-security-scanning/) containers - from [Thoughtworks' Tech Radar](https://www.thoughtworks.com/radar/techniques/container-security-scanning)
